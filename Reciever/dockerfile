@@ -1,0 +1,18 @@
+FROM ubuntu:22.04
+LABEL maintainer="hazenkong15@gmail.com"
+
+# Update package list and install Python and pip
+RUN apt-get update -y && \
+    apt-get install -y python3 python3-pip
+
+# Copy and install dependencies
+COPY ./requirements.txt /app/requirements.txt
+WORKDIR /app
+RUN pip3 install -r requirements.txt
+
+# Copy application code
+COPY . /app
+
+# Default command
+ENTRYPOINT ["python3"]
+CMD ["app.py"]
