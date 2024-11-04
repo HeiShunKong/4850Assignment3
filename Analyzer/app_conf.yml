@@ -1,0 +1,5 @@
+version: 1
+events:
+  hostname: mysql-3855.centralus.cloudapp.azure.com
+  port: 9092
+  topic: events

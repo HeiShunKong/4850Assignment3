@@ -1,0 +1,58 @@
+2024-10-31 10:18:15,072 - basicLogger - INFO - Retrieving Movie Event at index 2
+2024-10-31 10:30:39,082 - basicLogger - INFO - Retrieving Review Event at index 1
+2024-10-31 10:30:40,260 - basicLogger - ERROR - Review event at index 1 not found
+2024-10-31 10:32:33,288 - basicLogger - INFO - Retrieving Review Event at index 1
+2024-10-31 10:32:34,522 - basicLogger - ERROR - Review event at index 1 not found
+2024-10-31 10:32:36,963 - basicLogger - INFO - Retrieving Review Event at index 1
+2024-10-31 10:32:38,177 - basicLogger - ERROR - Review event at index 1 not found
+2024-10-31 10:32:45,462 - basicLogger - INFO - Retrieving Review Event at index 1
+2024-10-31 10:32:47,415 - basicLogger - ERROR - Review event at index 1 not found
+2024-10-31 10:32:57,654 - basicLogger - INFO - Retrieving Movie Event at index 2
+2024-10-31 10:32:58,880 - basicLogger - ERROR - Movie event at index 2 not found
+2024-10-31 10:33:20,392 - basicLogger - INFO - Retrieving Review Event at index 21
+2024-10-31 10:33:21,617 - basicLogger - ERROR - Review event at index 21 not found
+2024-10-31 10:33:25,673 - basicLogger - INFO - Retrieving Review Event at index 24
+2024-10-31 10:33:26,888 - basicLogger - ERROR - Review event at index 24 not found
+2024-10-31 10:33:37,244 - basicLogger - INFO - Retrieving Review Event at index 2
+2024-10-31 10:33:38,459 - basicLogger - ERROR - Review event at index 2 not found
+2024-10-31 10:38:02,902 - basicLogger - INFO - Retrieving Movie Event at index 2
+2024-10-31 10:38:04,128 - basicLogger - ERROR - Movie event at index 2 not found
+2024-10-31 10:46:22,896 - basicLogger - INFO - Retrieving Review Event at index 1
+2024-10-31 10:46:24,131 - basicLogger - ERROR - Review event at index 1 not found
+2024-10-31 10:46:27,653 - basicLogger - INFO - Retrieving Review Event at index 2
+2024-10-31 10:46:28,871 - basicLogger - ERROR - Review event at index 2 not found
+2024-10-31 10:46:34,486 - basicLogger - INFO - Retrieving Movie Event at index 2
+2024-10-31 10:46:35,707 - basicLogger - ERROR - Movie event at index 2 not found
+2024-10-31 10:49:50,555 - basicLogger - INFO - Retrieving Movie Event at index 2
+2024-10-31 10:49:51,763 - basicLogger - ERROR - Movie event at index 2 not found
+2024-10-31 10:50:35,135 - basicLogger - INFO - Retrieving Review Event at index 1
+2024-10-31 10:50:36,348 - basicLogger - ERROR - Review event at index 1 not found
+2024-10-31 10:50:44,428 - basicLogger - INFO - Retrieving Movie Event at index 2
+2024-10-31 10:50:45,645 - basicLogger - ERROR - Movie event at index 2 not found
+2024-10-31 10:53:03,118 - basicLogger - INFO - Calculating event statistics
+2024-10-31 10:56:42,617 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 10:58:49,610 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:02:26,390 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:04:51,227 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:06:47,230 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:08:23,449 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:09:04,721 - basicLogger - INFO - Calculating event statistics
+2024-10-31 11:09:40,859 - basicLogger - INFO - Calculating event statistics
+2024-10-31 11:11:33,986 - basicLogger - INFO - Calculating event statistics
+2024-10-31 11:11:54,649 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:13:11,290 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:13:17,400 - basicLogger - INFO - Calculating event statistics
+2024-10-31 11:14:40,966 - basicLogger - INFO - Calculating event statistics
+2024-10-31 11:27:42,197 - basicLogger - INFO - Retrieving movie at index 1
+2024-10-31 11:28:13,935 - basicLogger - INFO - Retrieving review at index 1
+2024-10-31 11:35:19,002 - basicLogger - INFO - Calculating event statistics
+2024-10-31 11:35:22,457 - basicLogger - INFO - Calculating event statistics
+2024-10-31 11:51:04,403 - basicLogger - INFO - Retrieving movie at index 2
+2024-10-31 11:51:45,614 - basicLogger - INFO - Calculating event statistics
+2024-10-31 12:05:40,872 - basicLogger - INFO - Calculating event statistics
+2024-10-31 12:11:23,037 - basicLogger - INFO - Calculating event statistics
+2024-10-31 12:14:28,514 - basicLogger - INFO - Calculating event statistics
+2024-10-31 12:14:45,299 - basicLogger - INFO - Retrieving movie at index 40
+2024-10-31 12:14:54,662 - basicLogger - INFO - Retrieving movie at index 39
+2024-10-31 12:15:06,670 - basicLogger - INFO - Retrieving review at index 39
+2024-10-31 12:15:14,552 - basicLogger - INFO - Retrieving review at index 40

@@ -1,0 +1,182 @@
+openapi: 3.0.0
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Movie API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: movie
+    description: Movie information
+  - name: review
+    description: Users reviews
+paths:
+  /movie:
+    get:
+      tags:
+        - movie
+      summary: Gets movies created within a specific time range
+      operationId: app.get_movies_by_timestamp
+      description: Gets movies added between start_timestamp and end_timestamp
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Limits the number of movies returned
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2024-10-01T00:00:15.123Z"
+        - name: end_timestamp
+          in: query
+          description: Limits the number of movies returned
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2024-10-02T10:00:20.123Z"
+      responses:
+        '200':
+          description: Successfully returned a list of movies
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Movie'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /review:      
+    get:
+      tags:
+        - review
+      summary: Gets reviews created within a specific time range
+      operationId: app.get_reviews_by_timestamp
+      description: Gets reviews added between start_timestamp and end_timestamp
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Limits the number of reviews returned
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2024-10-01T00:00:15.123Z"
+        - name: end_timestamp
+          in: query
+          description: Limits the number of reviews returned
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2024-10-02T10:00:20.123Z"
+      responses:
+        '200':
+          description: Successfully returned a list of reviews
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Review'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    Movie:
+      type: object
+      required:
+        - movie_id
+        - title
+        - release_date
+        - length
+        - genre
+        - cast
+        - director
+        - trace_id
+      properties:
+        movie_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        title:
+          type: string
+          example: "Titanic"
+        release_date:
+          type: string
+          format: date
+          example: '2016-08-29'
+        length:  
+          type: integer
+          example: 100  
+        genre:
+          type: string
+          example: "Love"
+        cast:
+          type: string
+          example: "Peter, Amy"
+        director: 
+          type: string
+          example: "Ben"
+        date_created:
+          type: string
+          format: date-time
+          example: "2024-09-22 10:35:00.123"
+        trace_id:
+          type: string
+          format: uuid
+          description: Trace ID for tracing data across services
+          example: "123e4567-e89b-12d3-a456-426614174000"
+
+    Review:
+      type: object
+      required:
+        - user_id
+        - movie_id
+        - comment
+        - rating
+        - trace_id
+      properties:
+        user_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0852"
+        movie_id:
+          type: string
+          format: uuid
+          example: 'd290f1ee-6c54-4b01-90e6-d701748f0851'
+        comment:
+          type: string
+          example: "Must Watch!"
+        rating:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 10
+          example: 5
+        date_created:
+          type: string
+          format: date-time
+          example: "2024-09-22 10:35:00.123"
+        trace_id:
+          type: string
+          format: uuid
+          description: Trace ID for tracing data across services
+          example: "123e4567-e89b-12d3-a456-426614174000"

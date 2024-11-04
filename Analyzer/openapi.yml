@@ -1,0 +1,171 @@
+openapi: 3.0.0
+info:
+  description: This API provides analyzer info for movie and review events
+  version: "1.0.0"
+  title: Analyzer API
+  contact:
+    email: your-email@example.com
+
+paths:
+  /movie:
+    get:
+      summary: Gets a movie event from history
+      operationId: app.get_movie_event
+      description: Retrieves a specific movie event from the message queue based on index
+      parameters:
+        - name: index
+          in: query
+          description: The index of the movie event in the message queue
+          schema:
+            type: integer
+            example: 2
+      responses:
+        '200':
+          description: Successfully returned a movie event
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MovieEvent'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /review:
+    get:
+      summary: Gets a review event from history
+      operationId: app.get_review_event
+      description: Retrieves a specific review event from the message queue based on index
+      parameters:
+        - name: index
+          in: query
+          description: The index of the review event in the message queue
+          schema:
+            type: integer
+            example: 1
+      responses:
+        '200':
+          description: Successfully returned a review event
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReviewEvent'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_event_stats
+      description: Retrieves the counts of each event type in the message queue
+      responses:
+        '200':
+          description: Successfully returned event stats
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+
+components:
+  schemas:
+    MovieEvent:
+      type: object
+      required:
+        - movie_id
+        - title
+        - genre
+        - length
+        - timestamp
+      properties:
+        movie_id:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        title:
+          type: string
+          example: "Inception"
+        genre:
+          type: string
+          example: "Science Fiction"
+        length:
+          type: integer
+          description: Movie length in minutes
+          example: 148
+        timestamp:
+          type: string
+          format: date-time
+          example: 2024-10-29T14:48:00.000Z
+
+    ReviewEvent:
+      type: object
+      required:
+        - review_id
+        - movie_id
+        - rating
+        - comment
+        - timestamp
+      properties:
+        review_id:
+          type: string
+          format: uuid
+          example: 789e1234-e567-89b0-c123-456789abcdef
+        movie_id:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        rating:
+          type: integer
+          description: Rating out of 10
+          example: 9
+        comment:
+          type: string
+          example: "Fantastic visuals and storytelling!"
+        timestamp:
+          type: string
+          format: date-time
+          example: 2024-10-29T15:15:00.000Z
+
+    Stats:
+      type: object
+      required:
+        - num_movie_events
+        - num_review_events
+      properties:
+        num_movie_events:
+          type: integer
+          description: Number of movie events
+          example: 150
+        num_review_events:
+          type: integer
+          description: Number of review events
+          example: 300

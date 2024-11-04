@@ -1,0 +1,118 @@
+openapi: 3.0.0
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Movie API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: movies
+    description: Movie information
+  - name: reviews
+    description: Users reviews
+paths:
+  /movies:
+    post:
+      tags:
+        - movies
+      summary: Add movie to database
+      operationId: add_movie
+      description: Add movie with movie_id, title, release date, length, genre, castor, director 
+      responses:
+        '201':
+          description: Movie Created Successfully
+        '400':
+          description: Failed To Add Movie
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Movie'
+        description: Movie details to add
+        
+  /reviews:      
+    post:
+      tags:
+        - reviews
+      summary: Submits users' reviews in database
+      operationId: submit_review
+      description: Submits users comments and ratings for the movie
+      responses:
+        '201':
+          description: Review Submitted Successfully
+        '400':
+          description: Failed To Submit
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Review'
+        description: Reviw details to add
+        
+components:
+  schemas:
+    Movie:
+      type: object
+      required:
+        - movie_id
+        - title
+        - release_date
+        - length
+        - genre
+        - cast
+        - director
+      properties:
+        movie_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        title:
+          type: string
+          example: "Titanic"
+        release_date:
+          type: string
+          format: date
+          example: '2016-08-29'
+        length:
+          type: integer
+          example: 100  
+        genre:
+          type: string
+          example: "Love"
+        cast:
+          type: string
+          items:
+          example: "Peter, Amy"
+        director: 
+          type: string
+          example: "Ben"
+        
+
+    Review:
+      type: object
+      required:
+        - user_id
+        - movie_id
+        - comment
+        - rating
+      properties:
+        user_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0852"
+        movie_id:
+          type: string
+          format: uuid
+          example: 'd290f1ee-6c54-4b01-90e6-d701748f0851'
+        comment:
+          type: string
+          example: "Must Watch!"
+        rating:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 10
+          example: 5

@@ -1,0 +1,1259 @@
+2024-10-10 08:38:38,471 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:38:42,550 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:38:42,550 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:38:42,551 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'max_movie_rating': 0, 'num_reviews': 50, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:38:38.471Z'}
+2024-10-10 08:38:42,551 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:38:43,479 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:38:47,564 - basicLogger - INFO - Received 9 movies.
+2024-10-10 08:38:47,571 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:38:47,572 - basicLogger - DEBUG - Updated statistics: {'num_movies': 59, 'max_movie_rating': 0, 'num_reviews': 55, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:38:43.479Z'}
+2024-10-10 08:38:47,572 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:38:48,482 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:38:52,578 - basicLogger - INFO - Received 6 movies.
+2024-10-10 08:38:52,578 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:38:52,579 - basicLogger - DEBUG - Updated statistics: {'num_movies': 65, 'max_movie_rating': 0, 'num_reviews': 60, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:38:48.482Z'}
+2024-10-10 08:38:52,579 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:38:53,472 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:38:57,587 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:38:57,587 - basicLogger - INFO - Received 7 reviews.
+2024-10-10 08:38:57,587 - basicLogger - DEBUG - Updated statistics: {'num_movies': 70, 'max_movie_rating': 0, 'num_reviews': 67, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:38:53.472Z'}
+2024-10-10 08:38:57,588 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:38:58,479 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:02,549 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:39:02,549 - basicLogger - INFO - Received 8 reviews.
+2024-10-10 08:39:02,550 - basicLogger - DEBUG - Updated statistics: {'num_movies': 75, 'max_movie_rating': 0, 'num_reviews': 75, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:38:58.479Z'}
+2024-10-10 08:39:02,550 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:03,479 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:07,537 - basicLogger - INFO - Received 6 movies.
+2024-10-10 08:39:07,538 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:39:07,538 - basicLogger - DEBUG - Updated statistics: {'num_movies': 81, 'max_movie_rating': 0, 'num_reviews': 80, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:03.479Z'}
+2024-10-10 08:39:07,538 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:08,474 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:12,582 - basicLogger - INFO - Received 9 movies.
+2024-10-10 08:39:12,583 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:39:12,584 - basicLogger - DEBUG - Updated statistics: {'num_movies': 90, 'max_movie_rating': 0, 'num_reviews': 85, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:08.474Z'}
+2024-10-10 08:39:12,584 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:13,477 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:17,565 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:39:17,565 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:39:17,565 - basicLogger - DEBUG - Updated statistics: {'num_movies': 95, 'max_movie_rating': 0, 'num_reviews': 90, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:13.477Z'}
+2024-10-10 08:39:17,566 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:18,482 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:22,582 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:39:22,583 - basicLogger - INFO - Received 9 reviews.
+2024-10-10 08:39:22,583 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 99, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:18.482Z'}
+2024-10-10 08:39:22,584 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:23,477 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:27,552 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:39:27,552 - basicLogger - INFO - Received 1 reviews.
+2024-10-10 08:39:27,552 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:23.477Z'}
+2024-10-10 08:39:27,553 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:28,474 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:32,539 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:39:32,539 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:39:32,540 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:28.474Z'}
+2024-10-10 08:39:32,540 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:33,487 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:37,568 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:39:37,569 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:39:37,569 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:33.487Z'}
+2024-10-10 08:39:37,570 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:38,477 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:42,548 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:39:42,548 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:39:42,548 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:38.477Z'}
+2024-10-10 08:39:42,548 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:43,486 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:47,576 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:39:47,576 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:39:47,577 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:43.486Z'}
+2024-10-10 08:39:47,577 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:48,474 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:52,525 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:39:52,525 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:39:52,525 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:48.474Z'}
+2024-10-10 08:39:52,526 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:53,480 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:39:57,577 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:39:57,577 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:39:57,578 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:53.480Z'}
+2024-10-10 08:39:57,578 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:39:58,473 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:40:02,593 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:40:02,594 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:40:02,594 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:39:58.473Z'}
+2024-10-10 08:40:02,594 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:40:03,474 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:40:07,545 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:40:07,545 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:40:07,551 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:40:03.474Z'}
+2024-10-10 08:40:07,551 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:40:08,475 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:40:12,588 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:40:12,589 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:40:12,590 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:40:08.475Z'}
+2024-10-10 08:40:12,590 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:40:13,486 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:40:17,566 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:40:17,566 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:40:17,566 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:40:13.486Z'}
+2024-10-10 08:40:17,566 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:40:18,480 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:40:22,557 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:40:22,557 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:40:22,558 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:40:18.480Z'}
+2024-10-10 08:40:22,558 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:40:23,473 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:40:27,518 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /movie?start_timestamp=2024-10-10T08:40:18.480Z&end_timestamp=2024-10-10T08:40:23.473Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000265C6FE7770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 08:40:27,518 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:40:23.473Z'}
+2024-10-10 08:40:27,518 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:40:28,473 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:40:32,547 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /movie?start_timestamp=2024-10-10T08:40:23.473Z&end_timestamp=2024-10-10T08:40:28.473Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000265C7000770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 08:40:32,548 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:40:28.473Z'}
+2024-10-10 08:40:32,549 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:01,728 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:05,814 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:52:05,815 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:52:05,815 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:05,816 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'max_movie_rating': 0, 'num_reviews': 100, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:01.729Z'}
+2024-10-10 08:52:05,816 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:06,722 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:10,832 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:52:10,832 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:52:10,832 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:10,833 - basicLogger - DEBUG - Updated statistics: {'num_movies': 105, 'max_movie_rating': 0, 'num_reviews': 105, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:06.727Z', 'avg_movie_length': 128.8}
+2024-10-10 08:52:10,833 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:11,724 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:15,807 - basicLogger - INFO - Received 9 movies.
+2024-10-10 08:52:15,807 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:52:15,808 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:15,808 - basicLogger - DEBUG - Updated statistics: {'num_movies': 114, 'max_movie_rating': 0, 'num_reviews': 110, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:11.729Z', 'avg_movie_length': 129.44444444444446}
+2024-10-10 08:52:15,808 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:16,720 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:20,820 - basicLogger - INFO - Received 6 movies.
+2024-10-10 08:52:20,820 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:52:20,820 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:20,820 - basicLogger - DEBUG - Updated statistics: {'num_movies': 120, 'max_movie_rating': 0, 'num_reviews': 115, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:16.725Z', 'avg_movie_length': 129.83333333333334}
+2024-10-10 08:52:20,821 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:21,727 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:25,835 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:52:25,835 - basicLogger - INFO - Received 7 reviews.
+2024-10-10 08:52:25,835 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:25,836 - basicLogger - DEBUG - Updated statistics: {'num_movies': 125, 'max_movie_rating': 0, 'num_reviews': 122, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:21.732Z', 'avg_movie_length': 121.6}
+2024-10-10 08:52:25,836 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:26,730 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:30,836 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:52:30,836 - basicLogger - INFO - Received 8 reviews.
+2024-10-10 08:52:30,836 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:30,837 - basicLogger - DEBUG - Updated statistics: {'num_movies': 130, 'max_movie_rating': 0, 'num_reviews': 130, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:26.735Z', 'avg_movie_length': 70.2}
+2024-10-10 08:52:30,837 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:31,722 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:35,806 - basicLogger - INFO - Received 6 movies.
+2024-10-10 08:52:35,806 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:52:35,807 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:35,807 - basicLogger - DEBUG - Updated statistics: {'num_movies': 136, 'max_movie_rating': 0, 'num_reviews': 135, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:31.731Z', 'avg_movie_length': 98.16666666666667}
+2024-10-10 08:52:35,807 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:36,726 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:40,827 - basicLogger - INFO - Received 9 movies.
+2024-10-10 08:52:40,827 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:52:40,828 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:40,828 - basicLogger - DEBUG - Updated statistics: {'num_movies': 145, 'max_movie_rating': 0, 'num_reviews': 140, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:36.735Z', 'avg_movie_length': 114.11111111111111}
+2024-10-10 08:52:40,829 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:41,728 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:45,850 - basicLogger - INFO - Received 5 movies.
+2024-10-10 08:52:45,851 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:52:45,851 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:45,851 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 145, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:41.733Z', 'avg_movie_length': 122.2}
+2024-10-10 08:52:45,852 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:46,730 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:50,822 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:52:50,822 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 08:52:50,823 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:50,823 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:46.735Z', 'avg_movie_length': 122.2}
+2024-10-10 08:52:50,823 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:51,735 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:52:55,853 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:52:55,853 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:52:55,853 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:52:55,854 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:51.739Z', 'avg_movie_length': 122.2}
+2024-10-10 08:52:55,854 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:52:56,724 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:00,826 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:00,827 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:00,827 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:00,827 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:52:56.729Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:00,828 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:01,723 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:05,831 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:05,831 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:05,832 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:05,832 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:01.728Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:05,832 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:06,726 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:10,842 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:10,843 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:10,843 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:10,844 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:06.733Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:10,844 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:11,720 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:15,813 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:15,813 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:15,813 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:15,814 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:11.727Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:15,814 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:16,733 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:20,834 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:20,835 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:20,835 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:20,835 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:16.739Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:20,836 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:21,733 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:25,833 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:25,833 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:25,834 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:25,834 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:21.738Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:25,835 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:26,731 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:30,824 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:30,824 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:30,825 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:30,825 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:26.739Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:30,825 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:31,723 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:35,807 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:35,808 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:35,808 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:35,808 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:31.727Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:35,809 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:36,728 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:40,827 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:40,827 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:40,827 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:40,828 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:36.732Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:40,829 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:41,720 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:45,833 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:45,834 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:45,834 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:45,834 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:41.725Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:45,835 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:46,729 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:50,831 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:50,832 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:50,832 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:50,832 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:46.734Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:50,832 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:51,724 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:53:55,827 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:53:55,827 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:53:55,827 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:53:55,828 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:51.732Z', 'avg_movie_length': 122.2}
+2024-10-10 08:53:55,828 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:53:56,727 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:54:00,833 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:54:00,833 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:54:00,834 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:54:00,834 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:53:56.732Z', 'avg_movie_length': 122.2}
+2024-10-10 08:54:00,834 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 08:54:01,727 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 08:54:05,832 - basicLogger - INFO - Received 0 movies.
+2024-10-10 08:54:05,833 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 08:54:05,833 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 08:54:05,834 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T08:54:01.732Z', 'avg_movie_length': 122.2}
+2024-10-10 08:54:05,834 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:12,717 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:16,805 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:04:16,805 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:04:16,805 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:16,806 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'max_movie_rating': 0, 'num_reviews': 150, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:12.717Z', 'avg_movie_length': 122.2}
+2024-10-10 09:04:16,806 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:17,718 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:21,810 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:04:21,811 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:04:21,811 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:21,812 - basicLogger - DEBUG - Updated statistics: {'num_movies': 155, 'max_movie_rating': 0, 'num_reviews': 155, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:17.722Z', 'avg_movie_length': 108.4}
+2024-10-10 09:04:21,812 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:22,716 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:26,828 - basicLogger - INFO - Received 9 movies.
+2024-10-10 09:04:26,828 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:04:26,828 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:26,829 - basicLogger - DEBUG - Updated statistics: {'num_movies': 164, 'max_movie_rating': 0, 'num_reviews': 160, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:22.720Z', 'avg_movie_length': 114.44444444444444}
+2024-10-10 09:04:26,829 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:27,707 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:31,800 - basicLogger - INFO - Received 6 movies.
+2024-10-10 09:04:31,800 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:04:31,801 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:31,801 - basicLogger - DEBUG - Updated statistics: {'num_movies': 170, 'max_movie_rating': 0, 'num_reviews': 165, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:27.712Z', 'avg_movie_length': 112.0}
+2024-10-10 09:04:31,801 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:32,720 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:36,822 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:04:36,823 - basicLogger - INFO - Received 8 reviews.
+2024-10-10 09:04:36,823 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:36,824 - basicLogger - DEBUG - Updated statistics: {'num_movies': 175, 'max_movie_rating': 0, 'num_reviews': 173, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:32.729Z', 'avg_movie_length': 137.8}
+2024-10-10 09:04:36,824 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:37,715 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:41,813 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:04:41,813 - basicLogger - INFO - Received 7 reviews.
+2024-10-10 09:04:41,813 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:41,814 - basicLogger - DEBUG - Updated statistics: {'num_movies': 180, 'max_movie_rating': 0, 'num_reviews': 180, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:37.720Z', 'avg_movie_length': 128.4}
+2024-10-10 09:04:41,814 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:42,717 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:46,840 - basicLogger - INFO - Received 7 movies.
+2024-10-10 09:04:46,841 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:04:46,841 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:46,841 - basicLogger - DEBUG - Updated statistics: {'num_movies': 187, 'max_movie_rating': 0, 'num_reviews': 185, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:42.722Z', 'avg_movie_length': 110.42857142857143}
+2024-10-10 09:04:46,842 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:47,709 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:51,832 - basicLogger - INFO - Received 8 movies.
+2024-10-10 09:04:51,832 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:04:51,832 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:51,833 - basicLogger - DEBUG - Updated statistics: {'num_movies': 195, 'max_movie_rating': 0, 'num_reviews': 190, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:47.714Z', 'avg_movie_length': 105.75}
+2024-10-10 09:04:51,833 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:52,718 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:04:56,834 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:04:56,834 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:04:56,834 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:04:56,835 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 195, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:52.723Z', 'avg_movie_length': 127.2}
+2024-10-10 09:04:56,835 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:04:57,718 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:01,809 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:01,809 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:05:01,809 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:01,810 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:04:57.723Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:01,810 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:02,717 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:06,820 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:06,820 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:06,820 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:06,821 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:02.721Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:06,821 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:07,716 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:11,825 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:11,826 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:11,826 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:11,826 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:07.726Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:11,827 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:12,715 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:16,803 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:16,803 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:16,803 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:16,804 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:12.720Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:16,804 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:17,722 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:21,812 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:21,813 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:21,813 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:21,813 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:17.726Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:21,814 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:22,714 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:26,802 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:26,802 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:26,802 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:26,802 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:22.715Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:26,803 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:27,721 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:31,827 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:31,827 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:31,827 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:31,828 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:27.721Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:31,828 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:32,719 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:36,817 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:36,817 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:36,817 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:36,818 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:32.719Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:36,818 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:37,719 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:41,825 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:41,826 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:41,826 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:41,827 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:37.719Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:41,827 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:42,720 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:46,810 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:46,811 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:46,811 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:46,811 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:42.721Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:46,811 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:47,708 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:51,832 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:51,832 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:51,832 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:51,833 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:47.709Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:51,833 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:52,709 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:05:56,804 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:05:56,804 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:05:56,804 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:05:56,805 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:52.709Z', 'avg_movie_length': 127.2}
+2024-10-10 09:05:56,805 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:05:57,714 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:01,823 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:01,824 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:01,824 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:01,824 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:05:57.714Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:01,825 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:02,713 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:06,803 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:06,803 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:06,804 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:06,804 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:02.714Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:06,804 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:07,712 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:11,819 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:11,819 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:11,819 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:11,819 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:07.713Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:11,820 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:12,715 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:16,828 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:16,828 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:16,828 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:16,829 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:12.716Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:16,829 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:17,717 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:21,829 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:21,830 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:21,830 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:21,830 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:17.718Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:21,830 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:22,708 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:26,800 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:26,801 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:26,801 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:26,801 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:22.708Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:26,802 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:27,709 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:31,813 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:31,813 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:31,813 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:31,814 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:27.709Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:31,814 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:32,721 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:36,822 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:36,822 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:36,822 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:36,823 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:32.721Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:36,823 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:37,713 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:41,803 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:41,803 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:41,804 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:41,804 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:37.713Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:41,804 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:42,711 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:46,819 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:46,820 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:46,820 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:46,820 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:42.711Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:46,821 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:47,715 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:51,789 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:51,789 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:51,789 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:51,790 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:47.716Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:51,790 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:52,716 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:06:56,819 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:06:56,819 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:06:56,819 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:06:56,820 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:52.717Z', 'avg_movie_length': 127.2}
+2024-10-10 09:06:56,820 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:06:57,711 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:01,824 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:07:01,824 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:07:01,824 - basicLogger - ERROR - Error during processing: 'max_review_rating'
+2024-10-10 09:07:01,825 - basicLogger - DEBUG - Updated statistics: {'num_movies': 200, 'max_movie_rating': 0, 'num_reviews': 200, 'avg_review_length': 0.0, 'last_updated': '2024-10-10T09:06:57.712Z', 'avg_movie_length': 127.2}
+2024-10-10 09:07:01,825 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:23,830 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:27,924 - basicLogger - ERROR - Failed to get movies: 400
+2024-10-10 09:07:27,925 - basicLogger - ERROR - Failed to get reviews: 400
+2024-10-10 09:07:27,926 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 0, 'max_review_rating': 0, 'last_updated': '2024-10-10T09:07:23.830Z'}
+2024-10-10 09:07:27,926 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:28,834 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:32,942 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:07:32,942 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:07:32,943 - basicLogger - DEBUG - Updated statistics: {'num_movies': 5, 'avg_movie_length': 108.2, 'num_reviews': 5, 'max_review_rating': 7, 'last_updated': '2024-10-10T09:07:28.839Z'}
+2024-10-10 09:07:32,943 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:33,832 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:37,931 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:07:37,931 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:07:37,931 - basicLogger - DEBUG - Updated statistics: {'num_movies': 10, 'avg_movie_length': 121.2, 'num_reviews': 10, 'max_review_rating': 9, 'last_updated': '2024-10-10T09:07:33.833Z'}
+2024-10-10 09:07:37,932 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:38,823 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:42,917 - basicLogger - INFO - Received 9 movies.
+2024-10-10 09:07:42,918 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:07:42,918 - basicLogger - DEBUG - Updated statistics: {'num_movies': 19, 'avg_movie_length': 124.22222222222223, 'num_reviews': 15, 'max_review_rating': 9, 'last_updated': '2024-10-10T09:07:38.823Z'}
+2024-10-10 09:07:42,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:43,821 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:47,933 - basicLogger - INFO - Received 6 movies.
+2024-10-10 09:07:47,933 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:07:47,934 - basicLogger - DEBUG - Updated statistics: {'num_movies': 25, 'avg_movie_length': 116.5, 'num_reviews': 20, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:07:43.821Z'}
+2024-10-10 09:07:47,934 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:48,836 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:52,927 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:07:52,927 - basicLogger - INFO - Received 8 reviews.
+2024-10-10 09:07:52,928 - basicLogger - DEBUG - Updated statistics: {'num_movies': 30, 'avg_movie_length': 106.2, 'num_reviews': 28, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:07:48.836Z'}
+2024-10-10 09:07:52,928 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:53,835 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:07:57,918 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:07:57,919 - basicLogger - INFO - Received 7 reviews.
+2024-10-10 09:07:57,920 - basicLogger - DEBUG - Updated statistics: {'num_movies': 35, 'avg_movie_length': 123.0, 'num_reviews': 35, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:07:53.836Z'}
+2024-10-10 09:07:57,920 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:07:58,828 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:08:02,950 - basicLogger - INFO - Received 6 movies.
+2024-10-10 09:08:02,950 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:08:02,951 - basicLogger - DEBUG - Updated statistics: {'num_movies': 41, 'avg_movie_length': 138.0, 'num_reviews': 40, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:07:58.829Z'}
+2024-10-10 09:08:02,951 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:08:03,837 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:08:07,939 - basicLogger - INFO - Received 9 movies.
+2024-10-10 09:08:07,939 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:08:07,940 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 135.11111111111111, 'num_reviews': 45, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:08:03.837Z'}
+2024-10-10 09:08:07,941 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:08:08,822 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:08:12,918 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:08:12,918 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:08:12,919 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:08:08.823Z'}
+2024-10-10 09:08:12,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:08:13,825 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:08:17,918 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:08:17,918 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:08:17,919 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:08:13.826Z'}
+2024-10-10 09:08:17,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:08:18,830 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:08:24,934 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /review?start_timestamp=2024-10-10T09:08:13.826Z&end_timestamp=2024-10-10T09:08:18.832Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000190C9960DD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 09:08:24,935 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:08:18.832Z'}
+2024-10-10 09:08:24,936 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:24:42,807 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:24:46,914 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:24:46,914 - basicLogger - ERROR - Error during processing: cannot access local variable 'movie_count' where it is not associated with a value
+2024-10-10 09:24:46,915 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:24:42.807Z'}
+2024-10-10 09:24:46,915 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:24:47,809 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:24:51,907 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:24:51,907 - basicLogger - ERROR - Error during processing: cannot access local variable 'movie_count' where it is not associated with a value
+2024-10-10 09:24:51,908 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:24:47.815Z'}
+2024-10-10 09:24:51,908 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:24:52,806 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:24:56,901 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:24:56,901 - basicLogger - ERROR - Error during processing: cannot access local variable 'movie_count' where it is not associated with a value
+2024-10-10 09:24:56,902 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:24:52.811Z'}
+2024-10-10 09:24:56,902 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:24:57,812 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:01,905 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:25:01,905 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:01,905 - basicLogger - DEBUG - Updated statistics: {'num_movies': 55, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:24:57.818Z'}
+2024-10-10 09:25:01,906 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:02,799 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:06,904 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:25:06,904 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:06,905 - basicLogger - DEBUG - Updated statistics: {'num_movies': 60, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:02.804Z'}
+2024-10-10 09:25:06,905 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:07,802 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:11,911 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:25:11,911 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:11,911 - basicLogger - DEBUG - Updated statistics: {'num_movies': 65, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:07.807Z'}
+2024-10-10 09:25:11,912 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:12,804 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:16,893 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:25:16,893 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:16,894 - basicLogger - DEBUG - Updated statistics: {'num_movies': 70, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:12.808Z'}
+2024-10-10 09:25:16,895 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:17,807 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:21,886 - basicLogger - INFO - Received 7 movies.
+2024-10-10 09:25:21,886 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:21,887 - basicLogger - DEBUG - Updated statistics: {'num_movies': 77, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:17.812Z'}
+2024-10-10 09:25:21,887 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:22,806 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:26,899 - basicLogger - INFO - Received 8 movies.
+2024-10-10 09:25:26,899 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:26,900 - basicLogger - DEBUG - Updated statistics: {'num_movies': 85, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:22.812Z'}
+2024-10-10 09:25:26,900 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:27,811 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:31,919 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:25:31,920 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:31,920 - basicLogger - DEBUG - Updated statistics: {'num_movies': 90, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:27.815Z'}
+2024-10-10 09:25:31,921 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:32,807 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:36,901 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:25:36,902 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:36,902 - basicLogger - DEBUG - Updated statistics: {'num_movies': 95, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:32.812Z'}
+2024-10-10 09:25:36,902 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:37,806 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:41,898 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:25:41,899 - basicLogger - ERROR - Error during processing: cannot access local variable 'total_movie_length' where it is not associated with a value
+2024-10-10 09:25:41,899 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:37.810Z'}
+2024-10-10 09:25:41,900 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:42,803 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:46,893 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:25:46,894 - basicLogger - ERROR - Error during processing: cannot access local variable 'movie_count' where it is not associated with a value
+2024-10-10 09:25:46,894 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:42.808Z'}
+2024-10-10 09:25:46,894 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:47,802 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:51,899 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /movie?start_timestamp=2024-10-10T09:25:42.808Z&end_timestamp=2024-10-10T09:25:47.807Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A494AE9F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 09:25:51,900 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:47.807Z'}
+2024-10-10 09:25:51,900 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:25:52,800 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:25:56,882 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /movie?start_timestamp=2024-10-10T09:25:47.807Z&end_timestamp=2024-10-10T09:25:52.804Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A494C96D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 09:25:56,886 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:25:52.804Z'}
+2024-10-10 09:25:56,887 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:35:49,089 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:35:53,176 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:35:53,176 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:35:53,177 - basicLogger - DEBUG - Updated statistics: {'num_movies': 100, 'avg_movie_length': 135.11111111111111, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:35:49.090Z'}
+2024-10-10 09:35:53,177 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:35:54,100 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:35:58,195 - basicLogger - INFO - Received 8 movies.
+2024-10-10 09:35:58,196 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:35:58,196 - basicLogger - DEBUG - Updated statistics: {'num_movies': 108, 'avg_movie_length': 102.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:35:54.101Z'}
+2024-10-10 09:35:58,196 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:35:59,091 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:03,208 - basicLogger - INFO - Received 7 movies.
+2024-10-10 09:36:03,208 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:36:03,209 - basicLogger - DEBUG - Updated statistics: {'num_movies': 115, 'avg_movie_length': 124.85714285714286, 'num_reviews': 60, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:35:59.091Z'}
+2024-10-10 09:36:03,210 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:04,091 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:08,196 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:36:08,196 - basicLogger - INFO - Received 6 reviews.
+2024-10-10 09:36:08,197 - basicLogger - DEBUG - Updated statistics: {'num_movies': 120, 'avg_movie_length': 108.8, 'num_reviews': 66, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:04.096Z'}
+2024-10-10 09:36:08,197 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:09,093 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:13,192 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:36:13,192 - basicLogger - INFO - Received 9 reviews.
+2024-10-10 09:36:13,193 - basicLogger - DEBUG - Updated statistics: {'num_movies': 125, 'avg_movie_length': 93.2, 'num_reviews': 75, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:09.098Z'}
+2024-10-10 09:36:13,193 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:14,100 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:18,208 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:36:18,208 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:36:18,209 - basicLogger - DEBUG - Updated statistics: {'num_movies': 130, 'avg_movie_length': 122.2, 'num_reviews': 80, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:14.107Z'}
+2024-10-10 09:36:18,209 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:19,097 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:23,205 - basicLogger - INFO - Received 9 movies.
+2024-10-10 09:36:23,206 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:36:23,206 - basicLogger - DEBUG - Updated statistics: {'num_movies': 139, 'avg_movie_length': 103.77777777777777, 'num_reviews': 85, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:19.103Z'}
+2024-10-10 09:36:23,206 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:24,099 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:28,207 - basicLogger - INFO - Received 6 movies.
+2024-10-10 09:36:28,207 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:36:28,208 - basicLogger - DEBUG - Updated statistics: {'num_movies': 145, 'avg_movie_length': 138.33333333333334, 'num_reviews': 90, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:24.107Z'}
+2024-10-10 09:36:28,208 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:29,098 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:33,214 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:36:33,214 - basicLogger - INFO - Received 8 reviews.
+2024-10-10 09:36:33,215 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 98, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:29.103Z'}
+2024-10-10 09:36:33,215 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:34,088 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:38,192 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:36:38,192 - basicLogger - INFO - Received 2 reviews.
+2024-10-10 09:36:38,193 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:34.097Z'}
+2024-10-10 09:36:38,193 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:39,100 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:43,230 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:36:43,230 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:36:43,231 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:39.107Z'}
+2024-10-10 09:36:43,231 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:44,087 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:48,214 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:36:48,214 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:36:48,215 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:44.091Z'}
+2024-10-10 09:36:48,215 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:49,090 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:53,198 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:36:53,199 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:36:53,200 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:49.110Z'}
+2024-10-10 09:36:53,200 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:54,098 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:36:58,209 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:36:58,209 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:36:58,210 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:54.103Z'}
+2024-10-10 09:36:58,210 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:36:59,087 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:03,205 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:03,206 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:03,206 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:36:59.092Z'}
+2024-10-10 09:37:03,207 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:04,099 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:08,188 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:08,188 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:08,189 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:04.104Z'}
+2024-10-10 09:37:08,190 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:09,098 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:13,186 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:13,186 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:13,187 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:09.106Z'}
+2024-10-10 09:37:13,187 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:14,099 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:18,197 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:18,198 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:18,198 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:14.106Z'}
+2024-10-10 09:37:18,198 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:19,092 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:23,215 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:23,215 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:23,215 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:19.111Z'}
+2024-10-10 09:37:23,217 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:24,095 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:28,189 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:28,189 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:28,190 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:24.100Z'}
+2024-10-10 09:37:28,190 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:29,096 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:33,201 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:33,202 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:33,202 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:29.101Z'}
+2024-10-10 09:37:33,202 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:34,097 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:38,214 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:38,215 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:38,215 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:34.104Z'}
+2024-10-10 09:37:38,216 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:39,088 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:43,209 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:37:43,209 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:37:43,210 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:39.093Z'}
+2024-10-10 09:37:43,210 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:37:44,085 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:37:50,208 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /review?start_timestamp=2024-10-10T09:37:39.093Z&end_timestamp=2024-10-10T09:37:44.090Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AE0E7D4CB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 09:37:50,209 - basicLogger - DEBUG - Updated statistics: {'num_movies': 150, 'avg_movie_length': 122.4, 'num_reviews': 100, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:37:44.090Z'}
+2024-10-10 09:37:50,209 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:52:35,351 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:52:40,347 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:52:45,343 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:52:58,763 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:02,828 - basicLogger - ERROR - Failed to get movies: 400
+2024-10-10 09:53:02,829 - basicLogger - ERROR - Failed to get reviews: 400
+2024-10-10 09:53:02,829 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 0, 'max_review_rating': 0, 'last_updated': '2024-10-10T09:52:58.763Z'}
+2024-10-10 09:53:02,830 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:03,762 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:07,849 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:07,850 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:53:07,850 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:03.768Z'}
+2024-10-10 09:53:07,850 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:08,756 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:12,840 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:12,840 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:12,841 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:08.761Z'}
+2024-10-10 09:53:12,841 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:13,759 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:17,817 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:17,817 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:17,818 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:13.763Z'}
+2024-10-10 09:53:17,818 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:18,763 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:22,834 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:22,835 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:22,835 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:18.763Z'}
+2024-10-10 09:53:22,835 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:23,764 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:27,815 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:27,816 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:27,817 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:23.764Z'}
+2024-10-10 09:53:27,817 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:28,763 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:32,857 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:32,857 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:32,860 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:28.763Z'}
+2024-10-10 09:53:32,861 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:33,760 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:37,836 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:37,836 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:37,837 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:33.760Z'}
+2024-10-10 09:53:37,838 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:38,766 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:42,843 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:42,844 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:42,846 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:38.766Z'}
+2024-10-10 09:53:42,847 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:43,757 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:47,850 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:47,851 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:47,852 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:43.757Z'}
+2024-10-10 09:53:47,853 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:48,766 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:52,850 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:52,850 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:52,851 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:48.766Z'}
+2024-10-10 09:53:52,851 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:53,760 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:53:57,843 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:53:57,843 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:53:57,844 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:53.768Z'}
+2024-10-10 09:53:57,844 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:53:58,760 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:02,835 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:02,835 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:02,835 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:53:58.760Z'}
+2024-10-10 09:54:02,836 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:03,761 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:07,826 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:07,826 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:07,826 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:03.761Z'}
+2024-10-10 09:54:07,833 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:08,757 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:12,825 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:12,825 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:12,826 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:08.757Z'}
+2024-10-10 09:54:12,826 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:13,759 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:17,832 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:17,832 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:17,833 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:13.764Z'}
+2024-10-10 09:54:17,833 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:18,758 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:22,839 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:22,839 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:22,840 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:18.763Z'}
+2024-10-10 09:54:22,840 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:23,757 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:27,827 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:27,827 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:27,827 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:23.762Z'}
+2024-10-10 09:54:27,827 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:28,756 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:32,832 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:32,832 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:32,833 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:28.757Z'}
+2024-10-10 09:54:32,833 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:33,758 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:37,843 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:37,844 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:37,844 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:33.765Z'}
+2024-10-10 09:54:37,845 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:38,760 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:42,838 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:42,838 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:42,839 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:38.760Z'}
+2024-10-10 09:54:42,839 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:43,762 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:47,859 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:47,859 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:47,859 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:43.762Z'}
+2024-10-10 09:54:47,859 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:48,757 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:52,819 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:52,819 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:52,820 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:48.764Z'}
+2024-10-10 09:54:52,820 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:53,759 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:54:57,836 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:54:57,836 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:54:57,837 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:53.759Z'}
+2024-10-10 09:54:57,837 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:54:58,762 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:02,835 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:55:02,835 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:55:02,836 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:54:58.762Z'}
+2024-10-10 09:55:02,836 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:03,774 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:07,845 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:55:07,846 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:55:07,846 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:55:03.778Z'}
+2024-10-10 09:55:07,847 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:12,772 - basicLogger - INFO - Get stats request has started
+2024-10-10 09:55:12,772 - basicLogger - DEBUG - Stats response data: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:55:03.778Z'}
+2024-10-10 09:55:12,772 - basicLogger - INFO - Get stats request has completed
+2024-10-10 09:55:15,625 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:19,714 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:55:19,715 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:55:19,715 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:55:15.625Z'}
+2024-10-10 09:55:19,716 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:20,627 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:24,706 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:55:24,706 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:55:24,707 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:55:20.636Z'}
+2024-10-10 09:55:24,707 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:25,626 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:29,690 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:55:29,690 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:55:29,690 - basicLogger - DEBUG - Updated statistics: {'num_movies': 0, 'avg_movie_length': 0, 'num_reviews': 5, 'max_review_rating': 8, 'last_updated': '2024-10-10T09:55:25.630Z'}
+2024-10-10 09:55:29,690 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:30,632 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:34,734 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:55:34,734 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:55:34,734 - basicLogger - DEBUG - Updated statistics: {'num_movies': 5, 'avg_movie_length': 147.0, 'num_reviews': 10, 'max_review_rating': 9, 'last_updated': '2024-10-10T09:55:30.632Z'}
+2024-10-10 09:55:34,735 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:35,633 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:39,751 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:55:39,752 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:55:39,752 - basicLogger - DEBUG - Updated statistics: {'num_movies': 10, 'avg_movie_length': 125.0, 'num_reviews': 15, 'max_review_rating': 9, 'last_updated': '2024-10-10T09:55:35.633Z'}
+2024-10-10 09:55:39,752 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:40,628 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:44,713 - basicLogger - INFO - Received 9 movies.
+2024-10-10 09:55:44,714 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:55:44,714 - basicLogger - DEBUG - Updated statistics: {'num_movies': 19, 'avg_movie_length': 103.22222222222223, 'num_reviews': 20, 'max_review_rating': 9, 'last_updated': '2024-10-10T09:55:40.634Z'}
+2024-10-10 09:55:44,714 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:45,627 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:49,696 - basicLogger - INFO - Received 6 movies.
+2024-10-10 09:55:49,696 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:55:49,697 - basicLogger - DEBUG - Updated statistics: {'num_movies': 25, 'avg_movie_length': 145.83333333333334, 'num_reviews': 25, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:55:45.627Z'}
+2024-10-10 09:55:49,697 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:50,623 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:54,673 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:55:54,674 - basicLogger - INFO - Received 7 reviews.
+2024-10-10 09:55:54,674 - basicLogger - DEBUG - Updated statistics: {'num_movies': 30, 'avg_movie_length': 132.2, 'num_reviews': 32, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:55:50.623Z'}
+2024-10-10 09:55:54,674 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:55:55,624 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:55:59,706 - basicLogger - INFO - Received 5 movies.
+2024-10-10 09:55:59,706 - basicLogger - INFO - Received 8 reviews.
+2024-10-10 09:55:59,706 - basicLogger - DEBUG - Updated statistics: {'num_movies': 35, 'avg_movie_length': 138.4, 'num_reviews': 40, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:55:55.624Z'}
+2024-10-10 09:55:59,707 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:00,620 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:04,694 - basicLogger - INFO - Received 7 movies.
+2024-10-10 09:56:04,694 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:56:04,694 - basicLogger - DEBUG - Updated statistics: {'num_movies': 42, 'avg_movie_length': 127.14285714285714, 'num_reviews': 45, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:00.620Z'}
+2024-10-10 09:56:04,694 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:05,623 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:09,692 - basicLogger - INFO - Received 8 movies.
+2024-10-10 09:56:09,692 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:56:09,693 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 50, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:05.623Z'}
+2024-10-10 09:56:09,693 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:10,623 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:14,701 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:14,701 - basicLogger - INFO - Received 5 reviews.
+2024-10-10 09:56:14,701 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:10.624Z'}
+2024-10-10 09:56:14,701 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:15,625 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:19,690 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:19,690 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:19,693 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:15.625Z'}
+2024-10-10 09:56:19,693 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:20,620 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:24,712 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:24,713 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:24,714 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:20.624Z'}
+2024-10-10 09:56:24,714 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:25,624 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:29,713 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:29,714 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:29,715 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:25.624Z'}
+2024-10-10 09:56:29,716 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:30,624 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:34,731 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:34,731 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:34,731 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:30.624Z'}
+2024-10-10 09:56:34,731 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:35,630 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:39,715 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:39,716 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:39,717 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:35.630Z'}
+2024-10-10 09:56:39,719 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:40,620 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:44,699 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:44,699 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:44,701 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:40.620Z'}
+2024-10-10 09:56:44,701 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:45,623 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:47,237 - basicLogger - INFO - Get stats request has started
+2024-10-10 09:56:47,237 - basicLogger - DEBUG - Stats response data: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:40.620Z'}
+2024-10-10 09:56:47,237 - basicLogger - INFO - Get stats request has completed
+2024-10-10 09:56:49,713 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:49,713 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:49,713 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:45.629Z'}
+2024-10-10 09:56:49,713 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:50,631 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:54,717 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:54,718 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:54,718 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:50.643Z'}
+2024-10-10 09:56:54,719 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:56:55,626 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:56:59,731 - basicLogger - INFO - Received 0 movies.
+2024-10-10 09:56:59,732 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 09:56:59,734 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:56:55.630Z'}
+2024-10-10 09:56:59,734 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 09:57:00,622 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 09:57:06,706 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /review?start_timestamp=2024-10-10T09:56:55.630Z&end_timestamp=2024-10-10T09:57:00.627Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D7F2E3A870>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 09:57:06,707 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T09:57:00.627Z'}
+2024-10-10 09:57:06,707 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:40:55,913 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:40:55,921 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T09:57:00.627Z&end_timestamp=2024-10-10T12:40:55.919Z"
+2024-10-10 12:40:55,922 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:40:55.919Z'}
+2024-10-10 12:40:55,922 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:00,920 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:00,925 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:40:55.919Z&end_timestamp=2024-10-10T12:41:00.925Z"
+2024-10-10 12:41:00,926 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:00.925Z'}
+2024-10-10 12:41:00,927 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:05,917 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:05,922 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:00.925Z&end_timestamp=2024-10-10T12:41:05.922Z"
+2024-10-10 12:41:05,923 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:05.922Z'}
+2024-10-10 12:41:05,924 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:10,921 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:10,926 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:05.922Z&end_timestamp=2024-10-10T12:41:10.926Z"
+2024-10-10 12:41:10,926 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:10.926Z'}
+2024-10-10 12:41:10,926 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:15,913 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:15,919 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:10.926Z&end_timestamp=2024-10-10T12:41:15.919Z"
+2024-10-10 12:41:15,920 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:15.919Z'}
+2024-10-10 12:41:15,920 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:20,912 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:20,917 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:15.919Z&end_timestamp=2024-10-10T12:41:20.917Z"
+2024-10-10 12:41:20,918 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:20.917Z'}
+2024-10-10 12:41:20,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:25,917 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:25,923 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:20.917Z&end_timestamp=2024-10-10T12:41:25.917Z"
+2024-10-10 12:41:25,924 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:25.917Z'}
+2024-10-10 12:41:25,924 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:30,927 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:30,927 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:25.917Z&end_timestamp=2024-10-10T12:41:30.927Z"
+2024-10-10 12:41:30,927 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:30.927Z'}
+2024-10-10 12:41:30,939 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:35,920 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:35,933 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:30.927Z&end_timestamp=2024-10-10T12:41:35.932Z"
+2024-10-10 12:41:35,933 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:35.932Z'}
+2024-10-10 12:41:35,934 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:40,915 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:40,920 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:35.932Z&end_timestamp=2024-10-10T12:41:40.919Z"
+2024-10-10 12:41:40,921 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:40.919Z'}
+2024-10-10 12:41:40,921 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:45,912 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:45,918 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:40.919Z&end_timestamp=2024-10-10T12:41:45.918Z"
+2024-10-10 12:41:45,919 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:45.918Z'}
+2024-10-10 12:41:45,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:50,912 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:50,918 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:45.918Z&end_timestamp=2024-10-10T12:41:50.917Z"
+2024-10-10 12:41:50,918 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:50.917Z'}
+2024-10-10 12:41:50,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:41:55,914 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:41:55,914 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:50.917Z&end_timestamp=2024-10-10T12:41:55.914Z"
+2024-10-10 12:41:55,914 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:41:55.914Z'}
+2024-10-10 12:41:55,926 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:00,914 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:00,919 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:41:55.914Z&end_timestamp=2024-10-10T12:42:00.918Z"
+2024-10-10 12:42:00,920 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:00.918Z'}
+2024-10-10 12:42:00,920 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:05,912 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:05,912 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:00.918Z&end_timestamp=2024-10-10T12:42:05.912Z"
+2024-10-10 12:42:05,912 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:05.912Z'}
+2024-10-10 12:42:05,912 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:10,916 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:10,916 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:05.912Z&end_timestamp=2024-10-10T12:42:10.916Z"
+2024-10-10 12:42:10,916 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:10.916Z'}
+2024-10-10 12:42:10,916 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:15,923 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:15,923 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:10.916Z&end_timestamp=2024-10-10T12:42:15.923Z"
+2024-10-10 12:42:15,923 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:15.923Z'}
+2024-10-10 12:42:15,923 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:20,914 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:20,920 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:15.923Z&end_timestamp=2024-10-10T12:42:20.920Z"
+2024-10-10 12:42:20,921 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:20.920Z'}
+2024-10-10 12:42:20,921 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:25,912 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:25,918 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:20.920Z&end_timestamp=2024-10-10T12:42:25.918Z"
+2024-10-10 12:42:25,919 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:25.918Z'}
+2024-10-10 12:42:25,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:30,912 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:30,918 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:25.918Z&end_timestamp=2024-10-10T12:42:30.917Z"
+2024-10-10 12:42:30,919 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:30.917Z'}
+2024-10-10 12:42:30,919 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:35,913 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:35,918 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:30.917Z&end_timestamp=2024-10-10T12:42:35.918Z"
+2024-10-10 12:42:35,920 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:35.918Z'}
+2024-10-10 12:42:35,920 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:40,915 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:40,920 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:35.918Z&end_timestamp=2024-10-10T12:42:40.920Z"
+2024-10-10 12:42:40,922 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:40.920Z'}
+2024-10-10 12:42:40,922 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:45,926 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:45,934 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:40.920Z&end_timestamp=2024-10-10T12:42:45.933Z"
+2024-10-10 12:42:45,935 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:45.933Z'}
+2024-10-10 12:42:45,936 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:50,916 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:50,921 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:45.933Z&end_timestamp=2024-10-10T12:42:50.921Z"
+2024-10-10 12:42:50,923 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:50.921Z'}
+2024-10-10 12:42:50,923 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:42:55,921 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:42:55,921 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:50.921Z&end_timestamp=2024-10-10T12:42:55.921Z"
+2024-10-10 12:42:55,921 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:42:55.921Z'}
+2024-10-10 12:42:55,932 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:43:00,916 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:43:00,921 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:42:55.921Z&end_timestamp=2024-10-10T12:43:00.916Z"
+2024-10-10 12:43:00,922 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:43:00.916Z'}
+2024-10-10 12:43:00,923 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:43:05,917 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:43:05,923 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:43:00.916Z&end_timestamp=2024-10-10T12:43:05.917Z"
+2024-10-10 12:43:05,923 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:43:05.917Z'}
+2024-10-10 12:43:05,924 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:43:10,920 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:43:10,920 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:43:05.917Z&end_timestamp=2024-10-10T12:43:10.920Z"
+2024-10-10 12:43:10,936 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:43:10.920Z'}
+2024-10-10 12:43:10,938 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:43:15,923 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:43:15,923 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:43:10.920Z&end_timestamp=2024-10-10T12:43:15.923Z"
+2024-10-10 12:43:15,923 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:43:15.923Z'}
+2024-10-10 12:43:15,923 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:43:20,922 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:43:20,922 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:43:15.923Z&end_timestamp=2024-10-10T12:43:20.922Z"
+2024-10-10 12:43:20,922 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:43:20.922Z'}
+2024-10-10 12:43:20,922 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:43:25,917 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:43:25,921 - basicLogger - ERROR - Error during processing: No connection adapters were found for "app_config['eventstore']['url']movie?start_timestamp=2024-10-10T12:43:20.922Z&end_timestamp=2024-10-10T12:43:25.921Z"
+2024-10-10 12:43:25,922 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:43:25.921Z'}
+2024-10-10 12:43:25,922 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:14,954 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:19,328 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:19,328 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:19,328 - basicLogger - DEBUG - Updated statistics: {'num_movies': 50, 'avg_movie_length': 133.5, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:14.954Z'}
+2024-10-10 12:45:19,328 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:19,955 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:24,315 - basicLogger - INFO - Received 1 movies.
+2024-10-10 12:45:24,315 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:24,315 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:19.955Z'}
+2024-10-10 12:45:24,315 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:24,952 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:29,324 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:29,324 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:29,324 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:24.959Z'}
+2024-10-10 12:45:29,324 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:29,949 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:34,300 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:34,300 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:34,301 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:29.957Z'}
+2024-10-10 12:45:34,302 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:34,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:39,358 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:39,373 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:39,373 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:34.960Z'}
+2024-10-10 12:45:39,375 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:39,947 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:44,329 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:44,329 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:44,330 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:39.947Z'}
+2024-10-10 12:45:44,330 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:44,956 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:49,326 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:49,326 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:49,326 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:44.962Z'}
+2024-10-10 12:45:49,326 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:49,960 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:54,315 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:54,315 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:54,316 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:49.966Z'}
+2024-10-10 12:45:54,316 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:54,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:45:59,315 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:45:59,316 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:45:59,316 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:54.950Z'}
+2024-10-10 12:45:59,317 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:45:59,957 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:04,329 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:04,329 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:04,330 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:45:59.962Z'}
+2024-10-10 12:46:04,330 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:04,956 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:09,355 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:09,356 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:09,356 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:04.963Z'}
+2024-10-10 12:46:09,357 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:09,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:14,354 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:14,354 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:14,355 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:09.955Z'}
+2024-10-10 12:46:14,355 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:14,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:19,302 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:19,302 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:19,303 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:14.955Z'}
+2024-10-10 12:46:19,304 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:19,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:24,341 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:24,341 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:24,341 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:19.959Z'}
+2024-10-10 12:46:24,342 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:24,958 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:29,355 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:29,355 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:29,356 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:24.965Z'}
+2024-10-10 12:46:29,357 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:29,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:34,346 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:34,347 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:34,347 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:29.956Z'}
+2024-10-10 12:46:34,348 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:34,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:39,307 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:39,307 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:39,308 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:34.958Z'}
+2024-10-10 12:46:39,308 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:39,956 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:44,305 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:44,305 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:44,305 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:39.961Z'}
+2024-10-10 12:46:44,305 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:44,949 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:49,340 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:49,340 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:49,340 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:44.949Z'}
+2024-10-10 12:46:49,340 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:49,950 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:54,326 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:54,326 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:54,326 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:49.950Z'}
+2024-10-10 12:46:54,326 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:54,952 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:46:59,311 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:46:59,311 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:46:59,312 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:54.958Z'}
+2024-10-10 12:46:59,312 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:46:59,957 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:04,333 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:04,334 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:04,335 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:46:59.962Z'}
+2024-10-10 12:47:04,336 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:04,949 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:09,344 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:09,344 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:09,344 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:04.955Z'}
+2024-10-10 12:47:09,344 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:09,954 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:14,329 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:14,329 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:14,329 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:09.954Z'}
+2024-10-10 12:47:14,329 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:14,954 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:19,331 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:19,331 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:19,331 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:14.954Z'}
+2024-10-10 12:47:19,331 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:19,957 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:24,345 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:24,345 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:24,346 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:19.957Z'}
+2024-10-10 12:47:24,346 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:24,956 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:29,291 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:29,291 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:29,306 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:24.960Z'}
+2024-10-10 12:47:29,306 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:29,962 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:34,306 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:34,306 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:34,306 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:29.962Z'}
+2024-10-10 12:47:34,306 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:34,951 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:39,315 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:39,315 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:39,315 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:34.956Z'}
+2024-10-10 12:47:39,315 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:39,953 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:44,302 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:44,303 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:44,303 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:39.953Z'}
+2024-10-10 12:47:44,303 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:44,948 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:49,302 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:49,302 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:49,305 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:44.948Z'}
+2024-10-10 12:47:49,306 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:49,959 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:54,329 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:54,329 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:54,329 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:49.959Z'}
+2024-10-10 12:47:54,330 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:54,952 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:47:59,307 - basicLogger - INFO - Received 0 movies.
+2024-10-10 12:47:59,307 - basicLogger - INFO - Received 0 reviews.
+2024-10-10 12:47:59,308 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:54.958Z'}
+2024-10-10 12:47:59,308 - basicLogger - INFO - Periodic Processing has ended.
+2024-10-10 12:47:59,953 - basicLogger - INFO - Start Periodic Processing
+2024-10-10 12:48:04,011 - basicLogger - ERROR - Error during processing: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /movie?start_timestamp=2024-10-10T12:47:54.958Z&end_timestamp=2024-10-10T12:47:59.953Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F07E26B3B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-10 12:48:04,012 - basicLogger - DEBUG - Updated statistics: {'num_movies': 51, 'avg_movie_length': 90.0, 'num_reviews': 55, 'max_review_rating': 10, 'last_updated': '2024-10-10T12:47:59.953Z'}
+2024-10-10 12:48:04,013 - basicLogger - INFO - Periodic Processing has ended.

@@ -1,0 +1,61 @@
+openapi: 3.0.0
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Movie API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: movie
+    description: Movie information
+  - name: review
+    description: Users reviews
+
+paths:
+  /events/stats:
+    get:
+      summary: Gets the movie and review event stats
+      operationId: app.get_stats
+      description: Gets processed statistics for movies and reviews
+      responses:
+        '200':
+          description: Successfully returned a list of movie and review stats
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MovieReviewStats'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    MovieReviewStats:
+      type: object
+      properties:
+        num_movies:
+          type: integer
+          example: 1000
+        avg_movie_rating:
+          type: number
+          format: float
+          example: 4.5
+        max_movie_rating:
+          type: number
+          format: float
+          example: 5.0
+        num_reviews:
+          type: integer
+          example: 5000
+        avg_review_length:
+          type: integer
+          example: 250
