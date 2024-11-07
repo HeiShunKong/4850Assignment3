@@ -2,7 +2,7 @@ version: 1
 eventstore1:
   url: http://localhost:8090/movie
 eventstore2:
-  url: http://localhost:8090/
+  url: http://localhost:8090/review
 events:
   hostname: mysql-3855.centralus.cloudapp.azure.com
   port: 9092
