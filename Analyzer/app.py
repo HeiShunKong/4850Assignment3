@@ -112,4 +112,4 @@ app.app.add_url_rule("/event2", "get_review_event", get_review_event)
 app.app.add_url_rule("/stats", "get_event_stats", get_event_stats)
 
 if __name__ == "__main__":
-    app.run(port=8110)
+    app.run(host="0.0.0.0", port=8110)
