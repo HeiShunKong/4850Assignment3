@@ -107,9 +107,9 @@ def get_event_stats():
     return jsonify(stats), 200
 
 # Add routes to Flask app
-app.app.add_url_rule("/event1", "get_movie_event", get_movie_event)
-app.app.add_url_rule("/event2", "get_review_event", get_review_event)
-app.app.add_url_rule("/stats", "get_event_stats", get_event_stats)
+# app.app.add_url_rule("/event1", "get_movie_event", get_movie_event)
+# app.app.add_url_rule("/event2", "get_review_event", get_review_event)
+# app.app.add_url_rule("/stats", "get_event_stats", get_event_stats)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8110)
