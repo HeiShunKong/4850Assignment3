@@ -7,8 +7,10 @@ export default function EndpointAnalyzer(props) {
     const [error, setError] = useState(null);
     const rand_val = Math.floor(Math.random() * 100); // Get a random event from the event store
 
+    const randEndpoint = Math.random() > 0.5 ? "movie" : "review";
+
     const getAnalyzer = () => {
-        fetch(`http://mysql-3855.centralus.cloudapp.azure.com:8110/events/${props.endpoint}?index=${rand_val}`)
+        fetch(`http://mysql-3855.centralus.cloudapp.azure.com:8110/events/${randEndpoint}?index=${rand_val}`)
             .then(res => res.json())
             .then((result) => {
                 console.log("Received Analyzer Results for " + props.endpoint);
