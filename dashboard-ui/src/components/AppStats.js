@@ -8,7 +8,7 @@ export default function AppStats({ lastUpdated }) {
 
     // Function to fetch stats
     const getStats = () => {
-        fetch(`https://mysql-3855.centralus.cloudapp.azure.com:8100/events/stats`)
+        fetch(`http://mysql-3855.centralus.cloudapp.azure.com:8100/events/stats`)
             .then((res) => res.json())
             .then(
                 (result) => {
