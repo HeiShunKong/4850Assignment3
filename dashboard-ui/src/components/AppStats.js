@@ -31,30 +31,27 @@ export default function AppStats({ lastUpdated }) {
 
     if (error) {
         return <div className={"error"}>Error found when fetching from API</div>;
-    } else if (isLoaded === false) {
+    } else if (!isLoaded) {
         return <div>Loading...</div>;
-    } else if (isLoaded === true) {
+    } else {
         return (
             <div>
                 <h1>Latest Stats</h1>
                 <table className={"StatsTable"}>
                     <tbody>
                         <tr>
-                            <th>Blood Pressure</th>
-                            <th>Heart Rate</th>
+                            <th>Total Movies</th>
+                            <th>Total Reviews</th>
                         </tr>
                         <tr>
-                            <td># BP: {stats['num_bp_readings']}</td>
-                            <td># HR: {stats['num_hr_readings']}</td>
+                            <td># Movies: {stats['num_movies']}</td>
+                            <td># Reviews: {stats['num_reviews']}</td>
                         </tr>
                         <tr>
-                            <td colSpan="2">Max BP Systolic: {stats['max_bp_sys_reading']}</td>
+                            <td colSpan="2">Highest Rated Movie: {stats['highest_rated_movie']}</td>
                         </tr>
                         <tr>
-                            <td colSpan="2">Max BP Diastolic: {stats['max_bp_dia_reading']}</td>
-                        </tr>
-                        <tr>
-                            <td colSpan="2">Max HR: {stats['max_hr_reading']}</td>
+                            <td colSpan="2">Average Rating: {stats['average_rating']}</td>
                         </tr>
                     </tbody>
                 </table>
