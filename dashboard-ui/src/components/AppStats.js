@@ -48,10 +48,10 @@ export default function AppStats({ lastUpdated }) {
                             <td># Reviews: {stats['num_reviews']}</td>
                         </tr>
                         <tr>
-                            <td colSpan="2">Highest Rated Movie: {stats['highest_rated_movie']}</td>
+                            <td colSpan="2">Average Movie Length: {stats['avg_movie_length']}</td>
                         </tr>
                         <tr>
-                            <td colSpan="2">Average Rating: {stats['average_rating']}</td>
+                            <td colSpan="2">Highest Rating: {stats['max_review_rating']}</td>
                         </tr>
                     </tbody>
                 </table>
