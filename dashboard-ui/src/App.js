@@ -75,8 +75,8 @@ function App() {
                 </ul>
                 <h1>Analyzer Endpoints</h1>
                 {/* Display EndpointAnalyzer for other endpoints */}
-                <EndpointAnalyzer endpoint={`${baseUrl}/blood-pressure`} />
-                <EndpointAnalyzer endpoint={`${baseUrl}/heart-rate`} />
+                <EndpointAnalyzer endpoint={`${baseUrl}/movie`} />
+                <EndpointAnalyzer endpoint={`${baseUrl}/review`} />
             </div>
         </div>
     );
