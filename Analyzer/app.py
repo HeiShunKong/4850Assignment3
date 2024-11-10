@@ -5,7 +5,8 @@ from flask import Flask, jsonify, request
 from connexion import App
 import yaml
 import logging.config
-
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 # Initialize Flask and Connexion app
 app = App(__name__, specification_dir="./")
 app.add_api("openapi.yml")
@@ -110,6 +111,18 @@ def get_event_stats():
 # app.app.add_url_rule("/event1", "get_movie_event", get_movie_event)
 # app.app.add_url_rule("/event2", "get_review_event", get_review_event)
 # app.app.add_url_rule("/stats", "get_event_stats", get_event_stats)
+app = App(__name__, specification_dir="./")
+app.add_api("openapi.yml")
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8110)
