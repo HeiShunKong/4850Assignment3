@@ -6,7 +6,7 @@ export default function AppStats({ lastUpdated }) {
     const [stats, setStats] = useState({});
     const [error, setError] = useState(null);
 
-    // Function to fetch stats
+    // Fetch stats
     const getStats = () => {
         fetch(`http://mysql-3855.centralus.cloudapp.azure.com:8100/events/stats`)
             .then((res) => res.json())
