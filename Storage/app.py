@@ -1,133 +1,148 @@
 import connexion
 from connexion import NoContent
-import logging
-import logging.config
-import uuid
-import datetime
-import json
-from pykafka import KafkaClient
-import time
-import yaml
+from datetime import datetime
+from requests import Session
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.exc import SQLAlchemyError
+from movie import Movie  
+from review import Review 
+from base import Base  
+import os
+import yaml
+import logging
+import logging.config
+from sqlalchemy import and_
+import json
+from pykafka import KafkaClient
+from pykafka.common import OffsetType
+from threading import Thread
 
+# Load configuration files
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
-
+    
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
-
 logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
 
-# Kafka Configuration
-kafka_hostname = app_config['events']['hostname']
-kafka_port = app_config['events']['port']
-topic_name = app_config['events']['topic']
-
-DATABASE_URL = app_config['database']['url']  # Ensure the database URL is set in your config
-
-# Kafka and Retry Logic
-kafka_client = None
-topic = None
-producer = None
-
-def initialize_kafka_client(retries=5, retry_interval=5):
-    global kafka_client, topic, producer
-    retry_count = 0
-    while retry_count < retries:
-        try:
-            kafka_client = KafkaClient(hosts=f'{kafka_hostname}:{kafka_port}')
-            topic = kafka_client.topics[str.encode(topic_name)]
-            producer = topic.get_sync_producer()  # Create producer once during service start
-            logger.info(f"Connected to Kafka at {kafka_hostname}:{kafka_port}, topic {topic_name} initialized.")
-            return True
-        except Exception as e:
-            retry_count += 1
-            logger.error(f"Error connecting to Kafka: {str(e)}. Retry {retry_count}/{retries}.")
-            time.sleep(retry_interval)
-    
-    logger.error("Failed to connect to Kafka after multiple attempts.")
-    return False
-
-# SQLAlchemy Engine with Connection Pooling
-engine = create_engine(
-    DATABASE_URL,
-    pool_size=10,       # Number of connections in the pool
-    pool_recycle=3600,  # Recycle connections every 1 hour (3600 seconds)
-    pool_pre_ping=True, # Check for stale connections before use
+# Set up the MySQL connection using the data from app_conf.yml
+DB_ENGINE = create_engine(
+    f'mysql+pymysql://{app_config["datastore"]["user"]}:{app_config["datastore"]["password"]}@{app_config["datastore"]["hostname"]}:{app_config["datastore"]["port"]}/{app_config["datastore"]["db"]}',
+    pool_size=10,                        
+    pool_recycle=3600,           
+    pool_pre_ping=True           
 )
+Base.metadata.bind = DB_ENGINE
+DB_SESSION = sessionmaker(bind=DB_ENGINE) 
 
-# Create a session factory
-Session = sessionmaker(bind=engine)
+Base.metadata.create_all(DB_ENGINE)
 
-# Function to get a new database session
-def get_session():
-    try:
-        session = Session()
-        return session
-    except SQLAlchemyError as e:
-        logger.error(f"Error creating a database session: {str(e)}")
-        return None
+logger.info(f'Connecting to DB. Hostname: {app_config["datastore"]["hostname"]}, Port: {app_config["datastore"]["port"]}')
 
-# Function to check if Kafka is available
-def check_kafka_health():
-    try:
-        kafka_client.topics[str.encode(topic_name)]  # Check if the topic is accessible
-        logger.info("Kafka is healthy and the topic is accessible.")
-        return True
-    except Exception as e:
-        logger.error(f"Kafka health check failed: {str(e)}")
-        return False
+# Function to get movies created between specified timestamps
+def get_movies_by_timestamp(start_timestamp, end_timestamp):
+    session = DB_SESSION() 
+    
+    start_timestamp_datetime = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
 
-# Initialize Kafka connection on startup
-if not initialize_kafka_client():
-    logger.error("Kafka connection failed during startup. Exiting.")
-    exit(1)
+    results = session.query(Movie).filter(
+        and_(Movie.date_created >= start_timestamp_datetime,
+             Movie.date_created < end_timestamp_datetime)
+    ).all()
+    
+    results_list = [movie.to_dict() for movie in results]
 
-# Endpoint functions
+    session.close()
+    logger.info("Query for movies between %s and %s returns %d results" %
+                (start_timestamp, end_timestamp, len(results_list)))
+    
+    return results_list, 200
 
-def add_movie(body):
-    trace_id = str(uuid.uuid4())  # Generate a unique trace_id for the event
-    logger.info(f"Received event add movie request with a trace id of {trace_id}") 
-    body['trace_id'] = trace_id  # Include trace_id in the request body to pass it to the next service
+def get_reviews_by_timestamp(start_timestamp, end_timestamp):
+    session = DB_SESSION()
+    
+    start_timestamp_datetime = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
 
-    try:
-        producer.produce(json.dumps({
-            "type": "add_movie",
-            "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-            "payload": body
-        }).encode('utf-8'))
-        logger.info(f"Produced event message for add movie (Id: {trace_id})")
-    except Exception as e:
-        logger.error(f"Error producing event to Kafka: {str(e)}")
-        return NoContent, 500
+    results = session.query(Review).filter(
+        and_(Review.date_created >= start_timestamp_datetime,
+             Review.date_created < end_timestamp_datetime)
+    ).all()
+    
+    results_list = [review.to_dict() for review in results]
 
-    return NoContent, 201  # Hard-coded status code for success
+    session.close()
+    logger.info("Query for reviews between %s and %s returns %d results" %
+                (start_timestamp, end_timestamp, len(results_list)))
+    
+    return results_list, 200
 
-def submit_review(body):
-    trace_id = str(uuid.uuid4())  
-    logger.info(f"Received event submit review request with a trace id of {trace_id}")  
-    body['trace_id'] = trace_id  
+def process_messages():
+    hostname = "%s:%d" % (app_config["events"]["hostname"], app_config["events"]["port"]) # kafka configuration
+    client = KafkaClient(hosts=hostname) # Create a Kafka instance
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
+    
+    # A consumer that only reads new messages
+    consumer = topic.get_simple_consumer(consumer_group=b'event_group',
+                                          reset_offset_on_start=False,
+                                          auto_offset_reset=OffsetType.LATEST)
+    
+    for msg in consumer:
+        msg_str = msg.value.decode('utf-8') # Msg are converted from bytes to string
+        msg = json.loads(msg_str)
+        logger.info("Message: %s" % msg)
+        payload = msg["payload"]
 
-    # Produce message to Kafka
-    try:
-        producer.produce(json.dumps({
-            "type": "submit_review",  
-            "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),  
-            "payload": body
-        }).encode('utf-8'))
-        logger.info(f"Produced event message for submit review (Id: {trace_id})")
-    except Exception as e:
-        logger.error(f"Error producing event to Kafka: {str(e)}")
-        return NoContent, 500
+        # Create a session for each message
+        db_session = sessionmaker(bind=DB_ENGINE)()
 
-    return NoContent, 201  # Hard-coded status code for success
+        try:
+            # Check message type and insert into the correct table
+            if msg["type"] == "add_movie":
+                movie = Movie(
+                    movie_id=payload["movie_id"],  
+                    title=payload["title"],         
+                    release_date=payload["release_date"],  
+                    length=payload.get("length"),   
+                    genre=payload["genre"],         
+                    cast=payload["cast"],          
+                    director=payload["director"],   
+                    trace_id=payload["trace_id"]   
+            )
+                db_session.add(movie)
+                logger.info("Stored movie event to database: %s" % payload)
+
+            elif msg["type"] == "submit_review":
+                review = Review(
+                    user_id=payload["user_id"],
+                    movie_id=payload["movie_id"],
+                    rating=payload.get("rating"),
+                    comment=payload.get("comment", ""),
+                    trace_id=payload["trace_id"]
+                )
+                db_session.add(review)
+                logger.info("Stored review event to database: %s" % payload)
+
+            # Commit the transaction for the current message
+            db_session.commit()
+
+            # Commit message will not be consumed again
+            consumer.commit_offsets()    
+        except Exception as e:
+            db_session.rollback()  # Rollback if there’s an error
+            logger.error(f"Failed to process message: {msg}. Error: {e}")
+            
+        finally:
+            db_session.close()
 
 app = connexion.FlaskApp(__name__, specification_dir='./')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    t1 = Thread(target=process_messages)
+    t1.setDaemon(True)
+    t1.start()
+    app.run(host="0.0.0.0", port=8090)

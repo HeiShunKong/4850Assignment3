@@ -5,6 +5,8 @@ datastore:
   hostname: mysql-3855.centralus.cloudapp.azure.com
   port: 3306
   db: movies_reviews_db
+database:
+  url: mysql+pymysql://user:yourpassword@mysql-3855.centralus.cloudapp.azure.com:3306/movies_reviews_db
 events:
   hostname: mysql-3855.centralus.cloudapp.azure.com
   port: 9092
