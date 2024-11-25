@@ -31,13 +31,10 @@ logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
 
-def populate_stats():
-    logger.info("Start Periodic Processing")
-
-    try:  # Load app_conf.yml data.json to read
-        with open(app_config['datastore']['filename'], 'r') as f:
-            current_stats = json.load(f)
-    except FileNotFoundError:  # If not found, create a new dictionary
+# Initialize data file
+def initialize_data_file(filename):
+    if not os.path.exists(filename):
+        # If the file doesn't exist, create empty stats table
         current_stats = {
             "num_movies": 0,
             "avg_movie_length": 0,
@@ -45,7 +42,29 @@ def populate_stats():
             "max_review_rating": 0,
             "last_updated": datetime.now().isoformat()
         }
-    
+        with open(filename, 'w') as f:
+            json.dump(current_stats, f)
+        logger.info(f"Initialized empty data file at {filename}")
+
+def populate_stats():
+    logger.info("Start Periodic Processing")
+
+    # Ensure the data file exists
+    initialize_data_file(app_config['datastore']['filename'])
+
+    try:  # Load app_conf.yml data.json to read
+        with open(app_config['datastore']['filename'], 'r') as f:
+            current_stats = json.load(f)
+    except FileNotFoundError:  # In case the file still doesn't exist
+        logger.error("data.json still not found, initializing with default values.")
+        current_stats = {
+            "num_movies": 0,
+            "avg_movie_length": 0,
+            "num_reviews": 0,
+            "max_review_rating": 0,
+            "last_updated": datetime.now().isoformat()
+        }
+
     # Timestamp
     end_timestamp = datetime.now().isoformat(timespec='milliseconds') + 'Z'
     start_timestamp = current_stats.get("last_updated", datetime.now().isoformat(timespec='milliseconds') + 'Z')
@@ -114,6 +133,9 @@ def init_scheduler():  # Manage periodic tasks in the background
 
 def get_stats():  # Fetch and return data from JSON file
     logger.info("Get stats request has started")
+
+    # Ensure the data file exists
+    initialize_data_file(app_config['datastore']['filename'])
 
     try:  # Read data.json
         with open(app_config['datastore']['filename'], 'r') as f:
