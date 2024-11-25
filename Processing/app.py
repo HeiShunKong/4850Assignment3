@@ -1,23 +1,31 @@
-import connexion
-from connexion import NoContent
-from datetime import datetime
-import json
+import os
 import logging
 import logging.config
 import requests
 import yaml
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+import json
+from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
+import connexion
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
+# Determine which environment configuration to use
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
 # Load the app configurations
-with open('app_conf.yml', 'r') as f:
+with open(app_conf_file, 'r') as f:
     app_config = yaml.safe_load(f.read())
 
 # Load the logging configurations
-with open('log_conf.yml', 'r') as f:
+with open(log_conf_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
 logging.config.dictConfig(log_config)
 
@@ -26,10 +34,10 @@ logger = logging.getLogger('basicLogger')
 def populate_stats():
     logger.info("Start Periodic Processing")
 
-    try: # Load it app_conf.yml data.json to read
+    try:  # Load app_conf.yml data.json to read
         with open(app_config['datastore']['filename'], 'r') as f:
             current_stats = json.load(f)
-    except FileNotFoundError: # If not found make a new dicitonary
+    except FileNotFoundError:  # If not found, create a new dictionary
         current_stats = {
             "num_movies": 0,
             "avg_movie_length": 0,
@@ -42,14 +50,14 @@ def populate_stats():
     end_timestamp = datetime.now().isoformat(timespec='milliseconds') + 'Z'
     start_timestamp = current_stats.get("last_updated", datetime.now().isoformat(timespec='milliseconds') + 'Z')
 
-    # Starts variable
+    # Start variables
     new_max_review_rating = 0
     total_movie_length = 0
     movie_count = 0
     total_review_count = 0
 
     try:
-        # Fetch data Making HTTP GET requests # No hardcode URL
+        # Fetch data via HTTP GET requests
         movies_response = requests.get(f"{app_config['eventstore']['url']}/movie?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}")
         reviews_response = requests.get(f"{app_config['eventstore']['url']}/review?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}")
 
@@ -58,7 +66,7 @@ def populate_stats():
             movies_data = movies_response.json()
             logger.info(f"Received {len(movies_data)} movies.")
             current_stats["num_movies"] += len(movies_data)
-            # Caculate all movies average length
+            # Calculate all movies' average length
             for movie in movies_data:
                 movie_length = movie.get("length", 0)
                 total_movie_length += movie_length
@@ -75,7 +83,7 @@ def populate_stats():
             reviews_data = reviews_response.json()
             logger.info(f"Received {len(reviews_data)} reviews.")
             current_stats["num_reviews"] += len(reviews_data)
-            # Caculate max review rating
+            # Calculate max review rating
             for review in reviews_data:
                 review_rating = review.get("rating", 0)
                 if review_rating > new_max_review_rating:
@@ -89,7 +97,7 @@ def populate_stats():
     except Exception as e:
         logger.error(f"Error during processing: {str(e)}")
 
-    # update to current timestamp
+    # Update with the current timestamp
     current_stats["last_updated"] = end_timestamp
     
     # Writing to data.json
@@ -99,23 +107,22 @@ def populate_stats():
     logger.debug(f"Updated statistics: {current_stats}")
     logger.info("Periodic Processing has ended.")
 
-
-def init_scheduler(): # Manage periodic tasks Run tasks in background
+def init_scheduler():  # Manage periodic tasks in the background
     sched = BackgroundScheduler(daemon=True)
     sched.add_job(populate_stats, 'interval', seconds=app_config['scheduler']['period_sec'])
     sched.start()
 
-def get_stats(): # Fetch and return data from JSON file
+def get_stats():  # Fetch and return data from JSON file
     logger.info("Get stats request has started")
 
-    try: # Read data.json
+    try:  # Read data.json
         with open(app_config['datastore']['filename'], 'r') as f:
             stats = json.load(f)
     except FileNotFoundError:
         logger.error("Statistics do not exist")
         return {"message": "Statistics do not exist"}, 404
 
-    response_data = { # Make a dictionary
+    response_data = {  # Make a dictionary
         "num_movies": stats.get("num_movies", 0),
         "avg_movie_length": stats.get("avg_movie_length", 0),
         "num_reviews": stats.get("num_reviews", 0),
@@ -142,4 +149,3 @@ app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 if __name__ == "__main__":
     init_scheduler()
     app.run(host="0.0.0.0", port=8100)
-#use_reloader=False

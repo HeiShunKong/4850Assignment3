@@ -1,3 +1,4 @@
+import os
 import connexion
 from connexion import NoContent
 import logging
@@ -6,27 +7,39 @@ import uuid
 import datetime
 import json
 from pykafka import KafkaClient
-import time
 import yaml
 
-with open('app_conf.yml', 'r') as f:
+# Determine configuration files based on environment
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
+# Load application configuration
+with open(app_conf_file, 'r') as f:
     app_config = yaml.safe_load(f.read())
 
-with open('log_conf.yml', 'r') as f:
+# Load logging configuration
+with open(log_conf_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
     
 logging.config.dictConfig(log_config)
-
 logger = logging.getLogger('basicLogger')
 
+logger.info("App Conf File: %s" % app_conf_file)
+logger.info("Log Conf File: %s" % log_conf_file)
+
+# Kafka configuration
 kafka_hostname = app_config['events']['hostname']
 kafka_port = app_config['events']['port']
 topic_name = app_config['events']['topic']
 
 kafka_client = KafkaClient(hosts=f'{kafka_hostname}:{kafka_port}')
 topic = kafka_client.topics[str.encode(topic_name)]
-
-
 producer = topic.get_sync_producer()
 
 def add_movie(body):
@@ -64,6 +77,7 @@ def submit_review(body):
     logger.info(f"Produced event message for submit review (Id: {trace_id})")
 
     return NoContent, 201  # Hard-coded status code for success
+
 app = connexion.FlaskApp(__name__, specification_dir='./')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
