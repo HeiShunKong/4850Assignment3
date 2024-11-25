@@ -14,7 +14,7 @@ export default function EndpointAnalyzer(props) {
             .then((result) => {
                 console.log("Received Analyzer Results for " + props.endpoint);
                 setLog(result);
-                setIndex(rand_val)
+                setIndex(rand_val);
                 setIsLoaded(true);
             }, (error) => {
                 setError(error);
@@ -34,7 +34,7 @@ export default function EndpointAnalyzer(props) {
     } else if (isLoaded === true) {
         return (
             <div>
-                <h3>{props.endpoint} - {index}</h3> {/* Use the synchronized index */}
+                <h3>{props.endpoint} - {index}</h3>
                 {JSON.stringify(log)}
             </div>
         );

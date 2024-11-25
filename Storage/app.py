@@ -31,7 +31,7 @@ logger = logging.getLogger('basicLogger')
 DB_ENGINE = create_engine(
     f'mysql+pymysql://{app_config["datastore"]["user"]}:{app_config["datastore"]["password"]}@{app_config["datastore"]["hostname"]}:{app_config["datastore"]["port"]}/{app_config["datastore"]["db"]}',
     pool_size=10,                        
-    pool_recycle=3600,           
+    pool_recycle=360,           
     pool_pre_ping=True           
 )
 Base.metadata.bind = DB_ENGINE
