@@ -1,0 +1,97 @@
+openapi: 3.0.0
+info:
+  title: Anomaly Detector API
+  description: API for detecting and retrieving anomalies from events.
+  version: 1.0.0
+paths:
+  /anomalies:
+    get:
+      summary: Retrieve anomalies
+      parameters:
+        - name: anomaly_type
+          in: query
+          description: The type of anomaly to filter (e.g., "Too Long", "Too Verbose")
+          required: false
+          schema:
+            type: string
+            example:
+              - Too Long
+              - Too Verbose
+      responses:
+        '200':
+          description: A list of anomalies
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    event_id:
+                      type: string
+                    trace_id:
+                      type: string
+                    event_type:
+                      type: string
+                      enum:
+                        - movie
+                        - review
+                    anomaly_type:
+                      type: string
+                      enum:
+                        - Too Long
+                        - Too Verbose
+                    description:
+                      type: string
+                    timestamp:
+                      type: string
+                      format: date-time
+        '400':
+          description: Invalid Anomaly Type
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Anomalies do not exist
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    Anomaly:
+      required:
+        - event_id
+        - trace_id
+        - event_type
+        - anomaly_type
+        - description
+        - timestamp
+      properties:
+        event_id:
+          type: string
+          example: "abc123"
+        trace_id:
+          type: string
+          example: "trace-56789"
+        event_type:
+          type: string
+          example: "Review"
+        anomaly_type:
+          type: string
+          example: "Too Long"
+        description:
+          type: string
+          example: "The review comment is too long 100+ characters"
+        timestamp:
+          type: string
+          example: "2024-11-24T10:22:33"
+      type: object

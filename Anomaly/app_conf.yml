@@ -1,0 +1,8 @@
+kafka:
+  hostname: kafka-broker
+  port: 9092
+thresholds:
+  movie_length: 180
+  review_word_count: 50
+datastore:
+  filepath: /data/anomalies.json
