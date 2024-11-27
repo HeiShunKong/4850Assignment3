@@ -7,8 +7,6 @@ import os
 import yaml
 from threading import Thread
 
-app = Flask(__name__)
-
 # Determine which environment configuration to use
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
     print("In Test Environment")
@@ -103,23 +101,20 @@ def process_events():
 
 
 
-# Function to filter anomalies based on anomaly_type
+# Function to filter anomaly type
 def get_anomalies(anomaly_type=None):
-    anomalies = load_anomalies()
+    anomalies = load_anomalies() # Load data.json
     
-    # If anomaly_type is provided, filter anomalies
-    if anomaly_type:
+    if anomaly_type: # Check if anomaly type match
         filtered_anomalies = [a for a in anomalies if a["anomaly_type"] == anomaly_type]
     else:
-        filtered_anomalies = anomalies
+        filtered_anomalies = anomalies  
     
     # Log the count of anomalies returned
     logger.info(f"Returned {len(filtered_anomalies)} anomalies")
     
     # Return the list of filtered anomalies
     return filtered_anomalies
-
-
 
 # Start Kafka consumer in a separate thread
 def start_kafka_consumer():
