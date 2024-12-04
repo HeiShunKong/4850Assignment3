@@ -1,0 +1,6 @@
+@Library('shared-library') _
+
+callSharedPipeline(
+    service: 'storage',
+    image: 'hazenkong/storage'
+)
